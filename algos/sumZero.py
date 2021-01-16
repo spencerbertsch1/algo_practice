@@ -3,6 +3,7 @@
 
 Given an integer n, return any array containing n unique integers such that they add up to 0.
 """
+from typing import List
 
 class Solution:
     def sumZero(self, n: int) -> List[int]:
@@ -11,6 +12,9 @@ class Solution:
         """
         # add the edge case where n=1
         half_n: int = round((n * 0.5) - 0.1)  # <-- make sure we round down
+        sum_list = []
+
+        # edge case when n is 1
         if (n == 1):
             sum_list: list = [0]
 
