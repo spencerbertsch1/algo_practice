@@ -19,7 +19,7 @@ class Solution:
 
         return solution
 
-# let's look a t a cleaner solution:
+# let's look at a cleaner solution:
 
 class BetterSolution:
     def containsDuplicate(self, nums: List[int]) -> bool:

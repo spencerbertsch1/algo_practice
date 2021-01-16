@@ -5,6 +5,7 @@ Given an integer n, return any array containing n unique integers such that they
 """
 from typing import List
 
+
 class Solution:
     def sumZero(self, n: int) -> List[int]:
         """
@@ -35,3 +36,8 @@ class Solution:
                 sum_list.append(i_to_add)
 
         return sum_list
+
+
+if __name__ == "__main__":
+    s = Solution()
+    print(s.sumZero(n=5))
