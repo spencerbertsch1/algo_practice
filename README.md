@@ -1,2 +1,4 @@
 # algo_practice
-Algorithms and database practice problems
+Algorithms and sql practice problems
+
+
