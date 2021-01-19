@@ -21,3 +21,11 @@ WHERE
     E1.ManagerId = E2.Id
     AND
     E1.Salary > E2.Salary
+
+
+# Here we see a great use case for selecting from the same table twice.
+# We can easily solve this problem by calling the same table E1 and E2,
+# then applying filtering rules using the 'two' tables.
+
+# This is similar to doing a self join, but more straightforward and in
+# this case an easier way to solve the problem.
