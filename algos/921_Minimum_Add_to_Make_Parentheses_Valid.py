@@ -17,11 +17,10 @@ class Solution:
         
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
-        # --- mike way: use 1 stacks ---
+        # --- mike way: use 1 stack ---
         string_stack: list = []
-        for letter in s:
-            print(letter)
             
+        for letter in s:
             if len(string_stack) == 0: 
                 # add the current letter to the top of the stack 
                 string_stack.append(letter)
