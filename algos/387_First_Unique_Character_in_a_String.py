@@ -4,7 +4,7 @@ class Solution:
         letters_seen_before: set = set()
         answer=-1
 
-        # create the dictionary we will use for lokups 
+        # create the dictionary we will use for lookups 
         for letter in s:
             if letter in letters_seen_before:
                 letterDict[letter]+=1
