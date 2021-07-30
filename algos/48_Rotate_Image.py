@@ -20,5 +20,3 @@ class Solution:
                 n1: int = matrix[i][j]
                 matrix[i][j] = matrix[i][N-1-j]
                 matrix[i][N-1-j] = n1
-                
-        return matrix    
